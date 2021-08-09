@@ -5,8 +5,8 @@ https://www.freecodecamp.org/learn/responsive-web-design/
 
 Eventually i will have these projects done and available here. 
 
--Build a Tribute Page
--Build a Survey Form
--Build a Product Landing Page
--Build a Technical Documentation Page
--Build a Personal Portfolio Webpage
+* Build a Tribute Page
+* Build a Survey Form
+* Build a Product Landing Page
+* Build a Technical Documentation Page
+* Build a Personal Portfolio Webpage
