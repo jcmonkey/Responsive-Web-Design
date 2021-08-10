@@ -7,6 +7,67 @@
 <style>
 </style>
 <body>
+    <!-- User Story #1 -->
+    <h1 id="title">title of the survey</h1>
+    
+    <!-- User Story #2 -->
+    <p id="description">description of the page</p>
 
+    <!-- User Story #3 -->
+    <form id="survey-form">
+        <!-- User Story #10 label ids-->
+        <!-- User Story #11 placeholder text for inputs -->
+        <!-- User Story #4 -->
+        <Label id="name-label" for="name">Name:
+        <input id="name" type="text" placeholder="name text" required>
+        </Label><br>
+
+         <!-- User Story #5 #6-->
+        <label id="email-label" for="email">Email:
+        <input type="email" id="email" name="email" placeholder="email text" required>
+        </label><br>
+
+        <!-- User Story #7 #8 #9-->
+        <label id="number-label" for="number">Quantity (between 1 and 5):
+        <input type="number" id="number" name="number" min="1" max="5" placeholder="number 1-5">
+        </label><br>
+        
+        <!-- User Story #12 -->
+        <label for="dropdown">Choose option:
+        <select name="dropdown" id="dropdown">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        </select>
+        </label><br>
+
+        <!-- User Story #13 -->
+        <p>Some options to choose</p>
+        <input type="radio" id="o1" name="option" value="1">
+        <label for="o1">1</label><br>
+        <input type="radio" id="o2" name="option" value="2">
+        <label for="o2">2</label><br>
+        <input type="radio" id="o3" name="option" value="3">
+        <label for="o3">3</label>
+
+        <!-- User Story #14-->
+        <p>Some boxes to check</p>
+        <input type="checkbox" id="c1" name="c1" value="c1">
+        <label for="c1"> c1</label><br>
+        <input type="checkbox" id="c2" name="c2" value="c2">
+        <label for="c2"> c2</label><br>
+        <input type="checkbox" id="c3" name="c3" value="c3">
+        <label for="c3"> c3</label><br>
+
+        <!-- User Story #15 -->
+        <p>Textarea for text input:</p>
+        <textarea id="text-area" name="text-area" rows="4" cols="50">
+        
+        </textarea><br>
+
+        <!-- User Story #16 -->
+        <input id="submit" type="submit" value="Submit">
+    </form>
 </body>
 </html>
