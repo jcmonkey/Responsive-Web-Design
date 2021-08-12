@@ -9,4 +9,4 @@ Eventually i will have these projects done and available here.
 * Build a Survey Form - (17/17) without style and theme
 * Build a Product Landing Page - (16/16) without style and theme
 * Build a Technical Documentation Page - (16/16) without style and theme
-* Build a Personal Portfolio Webpage
+* Build a Personal Portfolio page - (12/12) without style and theme
