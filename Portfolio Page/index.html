@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Porfolio Page</title>
+<style>
+  article, aside, details, figcaption, figure, footer, header,
+  hgroup, menu, nav, section { display: block; }
+
+  /* User Story #11 */
+  #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  #nav-bar {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    z-index: 2;
+  }
+  
+  .nav-link {
+    color: white;
+  }
+
+  #video { z-index: 1;}
+  
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+  /* User Story #10 */
+  #welcome-section {
+   background-color: gray;
+   width: 100vw;
+   height: 100vh;
+  }
+  #projects {
+   background-color: white;
+   width: 100vw;
+   height: 100vh;
+  }
+  #contact {
+   background-color: gray;
+   width: 100vw;
+   height: 100vh;
+  }
+  /* User Story #9 */
+@media only screen and (max-width: 400px) {
+  #welcome-section {
+    margin-left: -10px;
+  }
+}
+</style>
+</head>
+<body>
+
+  <!-- User Story #6 #7-->
+  <nav id="navbar">
+    <ul>
+      <li><a class="nav-link" href="#welcome-section">Home</a></li>
+      <li><a class="nav-link" href="#projects">Projects</a></li>
+      <li><a class="nav-link" href="#links">Links</a></li>
+    </ul>
+  </nav>
+  <main id="main-doc">
+  <!-- User Story #1 -->
+  <section id="welcome-section">
+    <!-- User Story #2 -->
+    <h1>Portfolio Test Site</h1>
+  </section>
+    
+  <!-- User Story #3 -->
+  <section id="projects">
+    <h2>Projects section</h2>
+    <!-- User Story #4 #5 -->
+     <a
+      href="https://github.com/jcmonkey/Responsive-Web-Design
+      target="_blank"
+      class="project project-tile"
+      >
+      <img
+        class="project-image"
+        src=""
+        alt="project"
+      />
+      <p class="project-title">
+      Responsive Web Design
+      </p>
+    </a>
+  </section>
+    
+  <section id="contact">
+    <h1>Links section</h1>
+    <!-- User Story #8 -->
+    <div id="contact-links">
+    <a id="profile-link" href="https://github.com/jcmonkey" target="_blank">GitHub</a>
+    </div>
+  </section>
+  </main>
+</body>
+</html>
