@@ -2,13 +2,117 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<title>HTML 5 complete</title>
+<title>Product Landing Page</title>
 <style>
   article, aside, details, figcaption, figure, footer, header,
   hgroup, menu, nav, section { display: block; }
+  
+  /* User Story 13 */
+  #nav-bar {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    z-index: 2;
+  }
+  
+  .nav-link {
+    color: white;
+  }
+
+  #video { z-index: 1;}
+  
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: white;
+}
+  
+  #box-container {
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 50%;
+    height: 50%;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 50%;
+    height: 50%;
+  }
+  
+  /* User Story #14 */
+  @media (min-height: 350px){
+    p { background-color: white; }
+  }
+  
 </style>
 </head>
 <body>
-<h1 id="title">Title of the page</h1>
+    <!-- User Story #1 -->
+<header id="header">
+    <!-- User Story #3 -->
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="active" href="#header">Home</a></li>
+        <li><a class="nav-link"href="#video">Video</a></li>
+        <li><a class="nav-link" href="#box-1">Box1</a></li>
+        <li><a class="nav-link" href="#box-2">Box2</a></li>
+      </ul>
+    </nav>
+    <!-- User Story #2 -->
+    <img id="header-img" src="" alt="company logo">
+    
+  <!-- User Story #7 #12-->
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <!-- User Story #8 #9 #10 -->
+    <label id="email-label" for="email">Email:
+    <input type="email" id="email" name="email" placeholder="email text" required>
+    </label><br>
+    <!-- User Story #11 -->
+    <input id="submit" type="submit" value="Submit">
+  </form>
+  
+</header>
+  <!-- User Story #6 -->
+  <video id="video" width="320" height="240" controls>
+    <source src="movie.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+  </video>
+  
+  <!-- User Story #15 -->
+  <div id="box-container">
+    <div id="box-1"></div>
+    <div id="box-2"></div>
+  </div>
+  
 </body>
 </html>
