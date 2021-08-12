@@ -3,7 +3,9 @@ This is my repository for the free code camp responsive web design projects.
 
 https://www.freecodecamp.org/learn/responsive-web-design/
 
-Eventually i will have these projects done and available here. 
+These are all basic pages that pass the tests for the certification.
+
+I will come back to these and put personal stylization to them.
 
 * Build a Tribute Page - (10/10) without style and theme
 * Build a Survey Form - (17/17) without style and theme
